@@ -222,7 +222,7 @@
   }
 
   ::file-selector-button {
-    margin-inline-end: 4px;
+    margin-inline-end: 3px;
   }
 
   ::placeholder {
@@ -372,7 +372,7 @@
   :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) h4, :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) label, :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) button {
     font-size: var(--text-base);
     font-weight: var(--font-weight-medium);
-    line-height: 1.5;
+    line-height: 1.6;
   }
 
   :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) input {
@@ -610,7 +610,7 @@
 
   @supports (color: color-mix(in lab, red, red)) {
     .bg-black\/50 {
-      background-color: color-mix(in oklab, var(--color-black) 50%, transparent);
+      background-color: color-mix(in oklab, var(--color-black) 55%, transparent);
     }
   }
 
